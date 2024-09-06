@@ -7,15 +7,15 @@
       "extensions": [
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "ms-python.black-formatter",  // 添加 black 扩展
-        "ms-python.flake8"            // 添加 flake8 扩展
+        "ms-python.black-formatter",
+        "ms-python.flake8"
       ]
     }
   },
   "settings": {
-    "python.linting.enabled": true,  // 启用 lint
-    "python.linting.flake8Enabled": true,  // 启用 flake8
-    "python.formatting.provider": "black", // 使用 black 作为格式化工具
-    "python.pythonPath": "/usr/local/bin/python"  // 如果你知道路径是固定的，可以保持不变
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.pythonPath": "/usr/local/bin/python"
   }
 }
