@@ -30,4 +30,4 @@ To run the tests:
 
 ## CI/CD
 
-![CI Status](https://github.com/YitaoS/my_python_project/actions/workflows/ci.yml/badge.svg)
+![CI Status](https://github.com/YitaoS/ids706_mini_project/actions/workflows/ci.yml/badge.svg)
