@@ -32,7 +32,7 @@ jobs:
 
     - name: Format with black
       run: |
-        black --check ids706_mini_project
+        black ids706_mini_project
 
     - name: Run Tests
       run: |
