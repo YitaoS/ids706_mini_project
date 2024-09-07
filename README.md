@@ -1,33 +1,47 @@
-# My Python Project
+# IDS706 Mini Project
 
-## Setup
+## Getting Started
 
-1. Clone the repo:
-`git clone https://github.com/YitaoS/ids706_mini_project.git cd ids706_mini_project`
+### Prerequisites
 
-2. Build the development environment using the devcontainer:
+- Python 3.9 or higher
+- Docker (if using DevContainer)
 
-If you're using VSCode:
-- Open the project in VSCode and select "Reopen in Container".
+### Installation
 
-Or manually:
-`docker build -t ids706_mini_project . docker run -v $(pwd):/workspace -it ids706_mini_project`
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/YitaoS/ids706_mini_project.git
+   cd ids706_mini_project
+   ```
 
-3. Install dependencies:
-`make install`
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+3. **Optional: Build the development environment using DevContainer**:
+   - Open the project in Visual Studio Code.
+   - Run **Reopen in Container** from the Command Palette (`Ctrl + Shift + P` or `Cmd + Shift + P`).
 
-## Usage
+### Usage
 
-To lint the code:
+- To run the main script:
+  ```bash
+  python ids706_mini_project/main.py
+  ```
 
-`make lint`
+- To run tests:
+  ```bash
+  make test
+  ```
 
-To run the tests:
+- To format the code:
+  ```bash
+  make format
+  ```
 
-`make test`
-
-
-## CI/CD
-
-![CI Status](https://github.com/YitaoS/ids706_mini_project/actions/workflows/ci.yml/badge.svg)
+- To lint the code:
+  ```bash
+  make lint
+  ```
