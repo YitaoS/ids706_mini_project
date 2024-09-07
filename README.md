@@ -1,5 +1,5 @@
 # IDS706 Mini Project
-
+![CI Status](https://github.com/YitaoS/ids706_mini_project/actions/workflows/ci.yml/badge.svg)
 ## Getting Started
 
 ### Prerequisites
